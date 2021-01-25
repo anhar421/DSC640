@@ -1,0 +1,15 @@
+---
+title: "R Notebook"
+output: pdf
+editor_options: 
+  chunk_output_type: inline
+---
+
+# For plots
+library("dplyr")
+library("ggplot2")
+library("reshape2")
+
+unemp <- read.csv("unemployement-rate-1948-2010.csv")
+
+library("treemap")
